@@ -24,7 +24,7 @@ public class Day1 {
                     int value = Integer.parseInt(String.valueOf(current.charAt(j)));
                     if (one == 'a'){
                         one = current.charAt(j);
-                    } else {
+                    } else { 
                         two = current.charAt(j);
                     }
                 }catch ( NumberFormatException ignored){
